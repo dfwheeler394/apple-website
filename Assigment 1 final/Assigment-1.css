@@ -1,0 +1,230 @@
+        @font-face {
+            font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+        }
+        
+        body {
+            background-color: #fafafa;
+            font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            ;
+            margin: 0px;
+            padding: 0px;
+            color: black;
+        }
+        
+        .header {
+            position: fixed;
+            display: inline-block;
+            background-color: #333333;
+            opacity: .78;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .header a {
+            text-decoration: none;
+            color: #fafafa;
+            font-size: 1em;
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+        /* найити селекто чтобы выделить все объекты внутри хидера */
+        
+        .header :hover {
+            color: #959595
+        }
+        
+        .header-logo {
+            display: inline;
+        }
+        
+        .header-logo-image {
+            max-height: 2em;
+            display: inline-block;
+        }
+        /*   header part is finished. no responsive  */
+        
+        #iphoneXRCredit {
+            display: inline-block;
+            text-align: center;
+            height: 40vh;
+            width: 100%;
+        }
+        
+        #iphoneXRCredit .space {
+            height: 8vh;
+            background-color: red;
+        }
+        
+        #iphoneXRCredit a {
+            color: blue;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+        }
+        /* iPhone XR credit finished */
+        
+        #iphoneXR {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            height: 50vh;
+        }
+        
+        #iphoneXR .space {
+            height: 8vh;
+            background-color: red;
+        }
+        
+        #iphoneXR a {
+            color: blue;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+        }
+        
+        #iphoneXR img {
+            max-width: 100%;
+        }
+        /* iphoneXR is finished */
+        
+        #iphoneXS {
+            margin-top: 8vh;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            height: 50vh;
+        }
+        
+        #iphoneXS .space {
+            height: 8vh;
+            background-color: red;
+        }
+        
+        #iphoneXS a {
+            color: blue;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+        }
+        
+        #iphoneXS img {
+            max-width: 100%;
+        }
+        /* iphoneXS is finished */
+        
+        #Watch {
+            margin-top: 8vh;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            height: 50vh;
+        }
+        
+        #Watch .space {
+            height: 8vh;
+            background-color: red;
+        }
+        
+        #Watch a {
+            color: blue;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+        }
+        
+        #Watch img {
+            max-width: 100%;
+            ;
+        }
+        /*  промо шесть объектов для промо мы создадим бутстрап структуру(все промо - это конейнер
+ затем линии а потом колоны (с числовыми пропорциями), в которой мы можем сделать их рядами сделать 12 для компов и 6 для мобильных устройств*/
+        
+        .tv {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/apple-news-plus/apple_news_plus_tile__enei4lmtsr0i_large.jpg");
+            color: #fafafa;
+            text-align: center;
+        }
+        
+        .news {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/apple-tv-plus/apple_tv_plus_tile__5j9ak2o1rrm6_large.jpg");
+            color: #fafafa;
+            text-align: center;
+        }
+        
+        .firstRow {
+            height: 100%;
+        }
+        
+        .arcade {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/apple-arcade/apple_arcade_tile__e69rgw4ia2mq_large.jpg");
+            color: #fafafa;
+            text-align: center;
+        }
+        
+        .music {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/apple-music/apple_music__gdfamywhn6ye_large.jpg");
+            color: #fafafa;
+            text-align: center;
+        }
+        
+        .watch {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/watch-series-4/series_4_spring__c1oad4ap3k6e_large.jpg");
+            color: black;
+            text-align: center;
+        }
+        
+        .airpods {
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-image: url("https://www.apple.com/v/home/ef/images/promos/airpods/airpods_magic__geiladfa3kqe_large.jpg");
+            color: black;
+            text-align: center;
+        }
+        
+        .bottomtext {
+            text-align: center;
+            color: #020814;
+            opacity: .81;
+            padding-top: 8em;
+            font-size: 15px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+        }
+        
+        h3 {
+            font-size: 1.2em;
+        }
+        
+        .rights {
+            text-align: center;
+        }
